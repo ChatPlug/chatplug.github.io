@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('../assets/background.jpeg');
+    background-repeat: no-repeat;
+    overflow: hidden;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#f2f2f2;
+}
+
+header {
+    padding-top: 0.1rem;
+    min-height: 2rem;
+    display: flex;
+    align-items: left;
+    justify-content: space-around;
+}
+
+header img {
+    padding-top: 0.6rem;
+    float: left;
+}
+
+header ul {
+    padding: 0;
+    padding-top: 0.8rem;
+    margin: 0;
+    float: right;
+}
+ header li {
+    display: inline;
+    padding: 0px 20px 0px 20px;
+}
+
+header ul a {
+    text-decoration: none;
+    color:#f2f2f2;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    padding-top: 4rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: 40em;
+    align-items: center;
+}
+
+.container h1 {
+    font-size: 60px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.container h2 {
+    padding-top: 0;
+    font-size: 30px;
+    margin: 0;
+}
+
+button {
+    border: 0;
+    margin: 5px;
+    font-size: 14px;
+    width: 8rem;
+    height: 3rem;
+    color: #e6e6e6;
+    border-radius: 5px;
+}
+
+.container .git {
+    background-color: #333;
+    padding-top: 0;
+}
+
+.container .git:hover{
+    background-color: #262626;
+}
+
+.container .more {
+    background-color: #32C5F2;
+}
+
+.container .more:hover {
+    background-color: #0fbbf0;
+}
+
+.feat {
+    margin: 0;
+    padding: 0;
+    padding-left: 3rem;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    min-height: 40em;
+    align-items: left;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.feat h1 {
+    font-size: 40px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.feat h2 {
+    padding-top: 0;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 1rem;
+}
+
+
+.feat .git {
+    background-color: #32C5F2;
+    padding-top: 0;
+}
+
+.feat .git:hover{
+    background-color: #0fbbf0;
+}
+
+
+@media (max-width: 400px) {
+    body {
+        overflow: scroll;
+    }
+    
+    .container h2 {
+        padding-top: 0;
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 340px) {
+    header img {
+        padding-top: 0.6rem;
+        padding-left: 0.5rem;
+        float: left;
+    }
+
+    header li {
+        display: inline;
+        padding: 0px 15px 0px 15px;
+    }
+    
+}
